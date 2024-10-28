@@ -110,7 +110,7 @@ services:
       - sites:/home/frappe/frappe-bench/sites
       - logs:/home/frappe/frappe-bench/logs
     ports:
-      - "8082:8082"
+      - "8082:8080"
 
   queue-long:
     image: frappe/erpnext:v15.39.3
